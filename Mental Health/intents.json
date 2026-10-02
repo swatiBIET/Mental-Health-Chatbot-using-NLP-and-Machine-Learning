@@ -1,0 +1,1364 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": [
+                "hi",
+                "hello",
+                "Hello",
+                "Hi",
+                "hai",
+                "Hai",
+                "heey"
+            ],
+            "responses": [
+                "Hello<br> How are you?"
+            ]
+        },
+        {
+            "tag": "feel_good",
+            "patterns": [
+                "I am Fine",
+                "I am very happy",
+                "I am okay",
+                "I am Feeling wonderfull",
+                "I am Good"
+            ],
+            "responses": [
+                "Nice.<br>Now tell me about your Sleep cycle.",
+                "Wonderfull<br>Now tell me about your Sleep cycle.",
+                "Good<br>Now tell me about your Sleep cycle"
+            ]
+        },
+        {
+            "tag": "feel_bad",
+            "patterns": [
+                "Not feeling well",
+                "Not well",
+                "I am not feeling good",
+                "I am not fine",
+                "Feeling very down",
+                "Feeling distressed"
+            ],
+            "responses": [
+                "Sad to hear that<br>Are you over sleeping or are you sleeping less ?",
+                "Oh no! Can you tell me about your sleep?",
+                "Sorry to hear that. How is your sleep going?",
+                "I am here for you. How have you been sleeping?"
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "i am having less sleep",
+                "I cant sleep properly from past few weeks",
+                "Cant get proper sleep from many days",
+                "Not able to sleep peacefully",
+                "I am feeling like having insomnia"
+            ],
+            "responses": [
+                "I would suggest you to do yoga and exercises as it could be insomnia<br>Tell me do you Smoke or Drink ????",
+                "This can be Insomnia try doing yoga and exercises.<br>Tell me do you Smoke or Drink???? "
+            ]
+        },
+        {
+            "tag": "Hypersomnia",
+            "patterns": [
+                "i am oversleeping",
+                "I am sleepy all the day from few weeks",
+                "Sleeping all day",
+                "Feeling dizzy all the day",
+                "Not feeling to get off bed"
+            ],
+            "responses": [
+                "I would suggest you to do yoga and exercises. As it could be Hypersomnia<br>Tell me do you Smoke or Drink????",
+                "This could be Hypersomnia try doing yoga and exercises. <br>Tell me do you Smoke or Drink????"
+            ]
+        },
+        {
+            "tag": "proper_sleep",
+            "patterns": [
+                "i am having proper sleep",
+                "having good sleep",
+                "having required amount of sleep",
+                "I am having adequate sleep"
+            ],
+            "responses": [
+                "Good<br>Tell me do you Smoke or Drink????",
+                "Nice<br>Tell me do you Smoke or Drink????"
+            ]
+        },
+        {
+            "tag": "smoking_true",
+            "patterns": [
+                "yes i smoke sometimes",
+                "Yes i smoke a cigarette per day",
+                "Yes i smoke heavily",
+                "Yes i smoke 4 packets every day",
+                "I am addicted to smoking",
+                "Yes i some frequently"
+            ],
+            "responses": [
+                "You should stop smoking !! If you can't then try Nicotine free cigarettes first and then start doing some yoga to concentrate on work without Cigarette and leave smoking as soon as possible!!!!!<br>What is the reason behind your smoking?",
+                "I hear you. Smoking can be hard to stop, especially when it's linked to stress.What is the reason behind your smoking?"
+            ]
+        },
+        {
+            "tag": "smoking_from_stress",
+            "patterns": [
+                "I smoke when I'm stressed",
+                "Smoking helps me deal with stress",
+                "I light up when I feel overwhelmed",
+                "Smoking calms me down when I'm anxious",
+                "I smoke to cope with work pressure"
+            ],
+            "responses": [
+                "It sounds like smoking might be your way of managing stress.<br> Have you thought about trying other ways to relax, What do you think is causing you the most stress right now?"
+            ]
+        },
+        {
+            "tag": "smoking_from_anxiety",
+            "patterns": [
+                "I smoke when I feel anxious",
+                "Smoking helps me relax when I'm nervous",
+                "I use cigarettes to calm my nerves",
+                "I smoke when I feel uneasy or worried"
+            ],
+            "responses": [
+                "It seems like smoking might be helping with your anxiety.<br> Have you considered other ways to manage anxiety,What do you think is causing you the your anxiety right now?"
+            ]
+        },
+        {
+            "tag": "smoking_from_emotions",
+            "patterns": [
+                "I smoke when I'm feeling down",
+                "I smoke to escape my emotions",
+                "I light up when I feel sad or lonely",
+                "I smoke to numb my feelings"
+            ],
+            "responses": [
+                "It seems like smoking might be your way of coping with emotions.<br> Would you be open to exploring other ways to manage your feelings,What is your relationship status?"
+            ]
+        },
+        {
+            "tag": "smoking_false",
+            "patterns": [
+                "never smoke",
+                "No i dont smoke",
+                "No I do not smoke",
+                "I quit smoking long time ago"
+            ],
+            "responses": [
+                "Nice!!!<br>Please tell me how are your relations with your friends or family or parents ?",
+                "It’s great that you don’t smoke! It’s one less thing to worry about when it comes to your health. "
+
+
+            ]
+        },
+        {
+            "tag": "drinking_true",
+            "patterns": [
+              "Yes i drink",
+              "I drink alcohol regularly.",
+              "I have a drink every day.",
+              "I can’t stop drinking.",
+              "I find myself drinking more often than I should.",
+              "I drink to cope with stress."
+            ],
+            "responses": [
+              "It sounds like you may be struggling with alcohol consumption. It is important to recognize when drinking is impacting your life. Would you like to explore ways to address this?"
+              
+            ]
+          },
+          {
+            "tag": "drinking_false",
+            "patterns": [
+              "I do not drink",
+              "I do not drink alcohol.",
+              "I have stopped drinking.",
+              "I have never been into drinking.",
+              "I prefer not to drink."
+            ],
+            "responses": [
+              "That is great! Not drinking is a healthy choice. Sometimes people face pressures to drink, how are your relations with your friends or family or parents?",
+              "It is awesome that you donot drink. Staying away from alcohol can have a lot of positive benefits.how are your relations with your friends or family or parents?"
+            ]
+          },
+        {
+            "tag": "relations_good",
+            "patterns": [
+                "i have good relations",
+                "I am having good relations with my friends",
+                "I am having good relations with my family",
+                "I am having good relations with my parents",
+                "Having good relations with all of them",
+                "good relations"
+            ],
+            "responses": [
+                "I hope all your relations remains good forever<br>Do you get anxious ?"
+            ]
+        },
+        {
+            "tag": "relations_bad",
+            "patterns": [
+                "I am not having good relations with my friends",
+                "I am not having good relations with my family",
+                "I am not having good relations with my parents",
+                "not having good relations with all of them",
+                "i am having bad realtions with all of them",
+                "bad relations"
+            ],
+            "responses": [
+                "I hope all your relations gets on track soon .<br>Do you get stress ?"
+            ]
+        },
+        {
+
+            "tag": "stress_true",
+            "patterns": [
+                "Yes, I am feeling stressed",
+                "I have a lot of stress",
+                "I feel overwhelmed",
+                "I am very stressed lately",
+                "I have too much on my plate"
+            ],
+            "responses": [
+                "It's normal to feel stressed sometimes, but don't ignore it.<br> What do you think is causing you the most stress right now?"
+     ] },
+        {
+            "tag": "stress_from_work",
+            "patterns": [
+                "Workload",
+                "My work is stressing me out",
+                "I have too many tasks at work",
+                "I can't keep up with work demands",
+                "Work pressure is too much for me",
+                "I feel like I'm drowning in work"
+            ],
+            "responses": [
+                "Work can be one of the biggest sources of stress.<br>It's important to set boundaries and take regular breaks. Have you considered talking to someone at work about how you're feeling?"
+            ]
+        },
+        {
+            "tag": "stress_from_relationships",
+            "patterns": [
+                "Because of relationship",
+                "My relationships are stressing me out",
+                "I'm having issues with my friends",
+                "I'm having issues with my partner",
+                "I'm having issues with my family",
+                "I feel like my relationships are falling apart",
+                "I argue a lot with people close to me",
+                "I'm struggling with communication in relationships"
+            ],
+            "responses": [
+                "Stress from relationships can be really hard to handle.<br>It might help to talk openly with those involved and set clear boundaries. Do you strugle to get sleep because of stress?"
+            ]
+        },
+        {
+            "tag": "stress_from_finances",
+            "patterns": [
+                "Financial issues",
+                "I'm stressed about money",
+                "I don't know how I'm going to pay my bills",
+                "Finances are causing me a lot of anxiety",
+                "I'm constantly worrying about my financial situation",
+                "I feel like I'm drowning in debt"
+            ],
+            "responses": [
+                "Money stress is real and can make everything feel more overwhelming.<br>Have you considered making a plan or speaking with a financial advisor to ease some of the stress? It might also help to break things down into smaller, manageable steps."
+            ]
+        },
+        {
+            "tag": "stress_and_health",
+            "patterns": [
+                "My stress is affecting my health",
+                "I'm feeling physically drained because of stress",
+                "Stress is making me feel sick",
+                "I'm having trouble sleeping because of stress",
+                "Stress is causing me physical pain"
+            ],
+            "responses": [
+                "Stress can take a big toll on your body.<br>It's important to manage stress to protect your health. Have you tried taking some time for self-care or speaking with a healthcare professional about how you're feeling?"
+            ]
+        },
+        {
+            "tag": "stress_with_sleep",
+            "patterns": [
+                "I cant sleep because of stress",
+                "Stress keeps me awake at night",
+                "I'm lying awake thinking about everything",
+                "I feel like Im never well-rested due to stress",
+                "My mind wont stop racing when I try to sleep"
+            ],
+            "responses": [
+                "Stress can definitely disrupt your sleep.<br>Have you tried a calming bedtime routine, like reading or listening to soothing music"
+            ]
+        },
+        {
+            "tag": "stress_in_the_morning",
+            "patterns": [
+                "I wake up feeling stressed",
+                "I start my day already feeling overwhelmed",
+                "I feel anxious as soon as I wake up",
+                "I don't feel motivated to start my day",
+                "I feel like I can't face the day ahead"
+            ],
+            "responses": [
+                "Waking up feeling stressed can be tough. It's important to start the day with small, manageable steps.<br>Have you considered starting with a mindfulness exercise or setting a simple goal for the day to focus on?"
+            ]
+        },
+        {
+            "tag": "stress_and_emotions",
+            "patterns": [
+                "I'm feeling emotionally drained",
+                "I feel like I'm constantly on edge",
+                "I'm always upset because of stress",
+                "I can't control my emotions due to stress",
+                "Stress makes me feel like crying"
+            ],
+            "responses": [
+                "It is hard when stress overwhelms your emotions.<br>Would it help to talk about the things that are stressing you out or to try grounding techniques to refocus your mind?"
+            ]
+        },
+        {
+            "tag": "stress_overload",
+            "patterns": [
+                "I feel completely overwhelmed by stress",
+                "I can't take any more stress",
+                "Everything feels too much for me to handle",
+                "I'm at my breaking point with stress"
+            ],
+            "responses": [
+                "I am really sorry you're feeling this way. It sounds like you're at a breaking point.<br>It's important to take a step back when you're overwhelmed. Would you like suggestions on how to deal with stress in manageable steps?"
+            ]
+        },
+        {
+            "tag": "stress_and_loneliness",
+            "patterns": [
+                "I feel lonely and stressed",
+                "Being alone makes my stress worse",
+                "I do not have anyone to talk to about my stress",
+                "Stress makes me feel isolated and alone"
+            ],
+            "responses": [
+                "I'm really sorry you are feeling this way. Loneliness can make stress even harder.<br>Is there someone you can reach out to, even if it is just a simple conversation to release some of that tension?"
+            ]
+        },
+        {
+            "tag": "stress_relief",
+            "patterns": [
+                "I need help with stress relief",
+                "I am looking for ways to reduce my stress",
+                "How can I relieve some of this stress?",
+                "What can I do to feel less stressed?"
+            ],
+            "responses": [
+                "There are many ways to relieve stress, such as deep breathing, mindfulness, or exercise.<br> Do you feel depressed?."
+            ]
+
+        },
+
+        {
+            "tag": "stress_false",
+            "patterns": [
+                "No, I am not stressed",
+                "I feel relaxed",
+                "I am managing stress well",
+                "I am okay with everything going on"
+            ],
+            "responses": [
+                "That's great to hear!<br>Do you cry frequently??"
+            ]
+        }, {
+            "tag": "depression_true",
+            "patterns": [
+                "I feel depressed",
+                "I feel down all the time",
+                "I am always sad",
+                "I can't stop feeling low",
+                "I feel hopeless"
+            ],
+            "responses": [
+                "I'm really sorry you're feeling this way.<br>It's important to talk to someone you trust, or consider seeking help from a mental health professional. Have you noticed changes in your mood or reason behind the depression??"
+            ]
+        },
+        {
+            "tag": "depression_from_failures",
+            "patterns": [
+                "I feel like a failure, and it's making me depressed",
+                "I keep messing up, and it's bringing me down",
+                "I feel like I’m not good enough, and it’s making me feel worthless",
+                "I’m disappointed in myself, and it’s causing me to feel sad",
+                "I keep failing, and it's affecting my mood"
+            ],
+            "responses": [
+                "It's tough when we feel like we're not meeting expectations.<br> Have you thought about being kinder to yourself? Everyone makes mistakes, and its okay to not be perfect."
+            ]
+        },
+        {
+            "tag": "depression_from_comparison",
+            "patterns": [
+                "I feel depressed because I’m constantly comparing myself to others",
+                "I see everyone doing better than me, and it’s making me feel down",
+                "I feel like I’m not measuring up to my friends or peers",
+                "Social media makes me feel like my life isn’t good enough",
+                "I feel like everyone is ahead of me, and it's making me feel stuck"
+            ],
+            "responses": [
+                "Social comparison can make us feel like we are falling behind.<br> Have you thought about focusing on your own progress and what makes you happy, rather than comparing yourself to others?"
+            ]
+        },
+        {
+            "tag": "depression_from_uncertainty",
+            "patterns": [
+                "I feel depressed because I don’t know what the future holds",
+                "The uncertainty about my future is making me anxious and sad",
+                "I feel lost about what I want to do with my life, and it’s bringing me down",
+                "I’m constantly worried about what’s next, and it’s affecting my mood",
+                "I feel stuck in a situation with no clear direction"
+            ],
+            "responses": [
+                "Uncertainty about the future can feel overwhelming.<br> Have you thought about focusing on small, positive steps you can take today, instead of worrying too much about what’s ahead?"
+            ]
+        },
+        
+        {
+            "tag": "depression_from_lack_of_motivation",
+            "patterns": [
+                "I feel too depressed to do anything",
+                "I have no motivation to get out of bed or do anything",
+                "Even small tasks feel impossible right now",
+                "I feel stuck and can’t bring myself to take action",
+                "I just don’t have the energy to do anything"
+            ],
+            "responses": [
+                "Lack of motivation is a common symptom of depression.<br> Have you considered starting with small, manageable tasks to help regain some momentum? Even tiny steps forward can make a big difference."
+            ]
+        },
+        {
+            "tag": "depression_false",
+            "patterns": [
+                "I am not feeling depressed",
+                "I am doing okay",
+                "I don't feel sad",
+                "I feel fine, no depression"
+            ],
+            "responses": [
+                "That's good to hear!<br>Stay positive and keep an eye on your mental well-being. Do you ever have feelings of anxiety or nervousness?"
+            ]
+        }, {
+            "tag": "self_esteem_low",
+            "patterns": [
+                "I don't feel good about myself",
+                "I feel worthless",
+                "I think I'm not good enough",
+                "I don't have confidence in myself",
+                "I don't like myself"
+            ],
+            "responses": [
+                "I'm sorry you're feeling this way. Self-esteem is really important.<br>Remember, everyone has their ups and downs. Do you want to talk more about why you're feeling this way?"
+            ]
+        }, {
+            "tag": "self_esteem_high",
+            "patterns": [
+                "I feel confident about myself",
+                "I have good self-esteem",
+                "I feel proud of who I am",
+                "I believe in myself"
+            ],
+            "responses": [
+                "That's awesome! Having a positive self-esteem is key.<br>Keep up the good work! Do you get angry?"
+            ]
+        }, {
+            "tag": "anger_true",
+            "patterns": [
+                "I get angry easily",
+                "I have anger issues",
+                "I feel furious often",
+                "I struggle with my anger",
+                "I can't control my temper"
+            ],
+            "responses": [
+                "It can be hard to deal with anger.<br>Have you considered anger management techniques or Do you feel frustration ? "
+            ]
+        }, {
+            "tag": "anger_false",
+            "patterns": [
+                "I don't get angry",
+                "I'm calm and patient",
+                "I rarely get angry",
+                "I don't have problems with my temper"
+            ],
+            "responses": [
+                "That's great! Staying calm helps keep stress at bay.<br>Do you practice mindfulness or other relaxation techniques?"
+            ]
+        }, 
+        {
+            "tag": "frustration",
+            "patterns": [
+                "I’m feeling frustrated all the time",
+                "I can’t seem to get things right",
+                "I feel angry and frustrated",
+                "Everything is bothering me",
+                "I’m so tired of dealing with everything"
+            ],
+            "responses": [
+                "It sounds like you're dealing with a lot of frustration. Times it helps to take a step back and focus on what you can control.<br> What is the reason behind this?"
+            ]
+        },
+        {
+            "tag": "frustration_with_work_studies",
+            "patterns": [
+                "I'm frustrated with my college work",
+                "I'm frustrated with my exams",
+                "I can't keep up with my work or studies",
+                "I feel overwhelmed by my tasks at college",
+                "I'm not getting the results I want at college",
+                "No matter how hard I try, I can't get ahead at college"
+            ],
+            "responses": [
+                "It sounds like you're feeling a lot of pressure at work or college.<br> Have you considered breaking your tasks into smaller steps or taking a break when it feels too much? Sometimes a change of environment can help clear your mind."
+            ]
+        },
+        {
+            "tag": "frustration_with_relationships",
+            "patterns": [
+                "I’m frustrated with my relationship",
+                "I can't seem to communicate well with my friend",
+                "I can't seem to communicate well with my partner",
+                "Things are tense between us, and I don't know how to fix it",
+                "I feel misunderstood in my relationship",
+                "I don’t know how to make things better in my relationship"
+            ],
+            "responses": [
+                "Relationships can be tough, especially when communication breaks down.<br> Have you tried talking to your partner or friend about how you're feeling? Sometimes, expressing frustrations calmly can open the door for understanding and change."
+            ]
+        },
+        {
+            "tag": "frustration_with_personal_goals",
+            "patterns": [
+                "I’m frustrated because I can't reach my goals",
+                "I feel like I'm not making progress on my personal goals",
+                "I keep setting goals, but I can’t seem to achieve them",
+                "No matter what I do, my personal goals seem out of reach",
+                "I feel stuck when it comes to achieving what I want in life"
+            ],
+            "responses": [
+                "It can be frustrating when you feel stuck on your goals.<br> Sometimes, it helps to reassess and break them down into smaller, more achievable steps."
+            ]
+        },
+        {
+            "tag": "frustration_with_lack_of_progress",
+            "patterns": [
+                "I feel like I'm not making any progress",
+                "I keep trying but things aren't improving",
+                "No matter what I do, nothing seems to change",
+                "I'm stuck in the same place and it's frustrating",
+                "I don’t see any results from my efforts"
+            ],
+            "responses": [
+                "It’s really tough when it feels like there’s no progress.<br> Have you considered celebrating small victories along the way? Sometimes focusing on even tiny progress can keep you motivated to move forward."
+            ]
+        },
+        {
+            "tag": "frustration_with_time_management",
+            "patterns": [
+                "I’m frustrated with how I manage my time",
+                "I can't seem to keep up with my schedule",
+                "I'm always running out of time",
+                "I have too much to do and not enough time",
+                "Time management feels impossible for me"
+            ],
+            "responses": [
+                "It sounds like you're feeling overwhelmed by your schedule.<br> Have you tried organizing your tasks into a priority list? Sometimes breaking things down can help you focus on one thing at a time, reducing the pressure."
+            ]
+        },
+        {
+            "tag": "frustration_with_self",
+            "patterns": [
+                "I’m frustrated with myself",
+                "I keep making the same mistakes",
+                "I don’t like the way I’m handling things",
+                "I feel like I’m not living up to my potential",
+                "I can’t believe I messed up again"
+            ],
+            "responses": [
+                "It’s tough when you’re feeling frustrated with yourself.<br> Remember that making mistakes is part of being human. Have you considered being kinder to yourself? Sometimes taking a step back and practicing self-compassion can ease the frustration."
+            ]
+        },
+        {
+            "tag": "frustration_with_finances",
+            "patterns": [
+                "I'm struggling to manage my finances",
+                "I can't keep up with my bills",
+                "I'm overwhelmed by my debt",
+                "I don't know how to budget effectively",
+                "I'm constantly worried about money",
+                "I feel like I'm living paycheck to paycheck",
+                "I can't save any money no matter how hard I try",
+                "Financial stress is affecting my well-being"
+            ],
+            "responses": [
+                "I'm sorry to hear you're facing financial challenges. It's common to feel overwhelmed, but there are steps you can take to improve your situation. Have you considered creating a budget to track your income and expenses? This can help identify areas where you might reduce spending. Additionally, seeking advice from a financial advisor or utilizing financial planning resources could provide personalized strategies to manage debt and savings effectively. Remember, acknowledging the issue is the first step toward financial well-being, and support is available to help you navigate these challenges."
+            ]
+        },        
+        
+        {
+          "tag": "hopeful_true",
+          "patterns": [
+            "I feel optimistic about the future.",
+            "I believe things will get better soon.",
+            "I’m confident that good things are coming.",
+            "I feel like there’s a bright light ahead."
+          ],
+          "responses": [
+            "Thats wonderful! A hopeful outlook can truly transform your journey. What is giving you that confidence?",
+            "Its amazing to hear that you're feeling optimistic. Holding on to hope can be so powerful. What is making you feel hopeful today?"
+          ]
+        },
+        {
+          "tag": "hopeful_false",
+          "patterns": [
+            "I’m not sure if things will ever get better.",
+            "I feel like no matter what, the future won’t change.",
+            "I can’t see any hope for things improving.",
+            "It’s hard for me to be hopeful about anything right now."
+          ],
+          "responses": [
+            "I’m really sorry you’re feeling this way. It can be difficult when hope feels out of reach. Would you like to talk about what’s been making you feel stuck?",
+            "Sometimes when hope feels distant, it can be helpful to focus on small, positive things. Would you like to explore what might spark some hope for you?"
+          ]
+        },
+        {
+          "tag": "joy_true",
+          "patterns": [
+            "I’m genuinely happy right now.",
+            "I feel pure joy in my life today.",
+            "I’m having a great day and can’t stop smiling.",
+            "Everything feels perfect and fulfilling today."
+          ],
+          "responses": [
+            "That is fantastic! Its wonderful to feel pure joy. What is been making you so happy today?",
+            "I am so glad to hear you’re experiencing joy! Its a beautiful feeling. Would you like to share what is contributing to your happiness?"
+          ]
+        },
+        {
+          "tag": "joy_false",
+          "patterns": [
+            "I don’t feel happiness anymore.",
+            "I’m struggling to feel joy in anything.",
+            "I don’t remember the last time I was genuinely happy.",
+            "Everything feels dull and I can’t find anything to smile about."
+          ],
+          "responses": [
+            "It sounds like you’re going through a tough time. Its okay to feel this way, and we can work through it."
+          ]
+        },
+        {
+          "tag": "hopeful_true_vision",
+          "patterns": [
+            "I can see where I want to be in the future.",
+            "I have a clear vision of my goals and what I want to achieve.",
+            "I feel like I am on the right path and everything is aligning.",
+            "I can picture my future in a positive way."
+          ],
+          "responses": [
+            "That is amazing! Having a clear vision can be so powerful."
+          ]
+        },
+        {
+          "tag": "hopeless_false_vision",
+          "patterns": [
+            "I have no idea what I am doing or where I am going.",
+            "I can’t even imagine a future for myself.",
+            "I feel lost when I think about what is ahead.",
+            "I do not see any direction for my life."
+          ],
+          "responses": [
+            "I understand how hard that can feel. Not having a clear vision for the future can leave us feeling uncertain.Are you worried about future?",
+            "It is okay to feel lost sometimes. Many people feel that way at certain points in life. Would you like help figuring out small steps to get to a place where you feel more certain about your future?"
+          ]
+        },
+        {
+          "tag": "fear_true",
+          "patterns": [
+            "I am terrified of what could happen next.",
+            "I feel like everything could go wrong.",
+            "I am overwhelmed with fear about the future.",
+            "I can’t stop worrying about what is coming."
+          ],
+          "responses": [
+            "Fear can be so paralyzing. It’s okay to feel that way, and you’re not alone. Would you like to explore what’s causing this fear?",
+            "It sounds like fear is really weighing on you right now. Would you like help finding ways to calm your mind or challenge those fearful thoughts?"
+          ]
+        },
+        {
+          "tag": "fear_false",
+          "patterns": [
+            "I am not scared of what’s coming next.",
+            "I am able to handle whatever happens.",
+            "I am not afraid of the future.",
+            "I’ve faced my fears and feel confident moving forward."
+          ],
+          "responses": [
+            "That is wonderful to hear! Confidence and fearlessness are such powerful tools. What has helped you build this courage?",
+            "It is amazing that you’re feeling so strong and confident. How do you stay calm and grounded when faced with challenges?"
+          ]
+        },
+        {
+          "tag": "self_doubt_true",
+          "patterns": [
+            "I do not believe in myself.",
+            "I am afraid I am not good enough.",
+            "I am questioning everything I do.",
+            "I feel like I am not capable of succeeding."
+          ],
+          "responses": [
+            "I am really sorry you’re feeling this way. Self-doubt can be really limiting. Would you like to talk through what’s making you feel unsure of yourself?"
+          ]
+        },
+
+          
+        {
+            "tag": "sleep_disorders",
+            "patterns": [
+                "I can't sleep at night",
+                "I wake up multiple times during the night",
+                "I have trouble falling asleep",
+                "I am always tired during the day",
+                "I have irregular sleep patterns"
+            ],
+            "responses": [
+                "Sleep disorders can really affect your well-being.<br> any other reasons to wake up at night?"
+            ]
+        }, 
+        {
+            "tag": "dreams_and_nightmares",
+            "patterns": [
+                "I have nightmares often",
+                "I dream a lot",
+                "I wake up scared from dreams",
+                "I remember my dreams vividly",
+                "My dreams are disturbing"
+            ],
+            "responses": [
+                "Nightmares and vivid dreams can sometimes indicate stress or anxiety.<br>"
+            ]
+        }, {
+            "tag": "panic_attack_true",
+            "patterns": [
+                "I have panic attacks",
+                "I feel like I am going to faint or die",
+                "My heart races and I can't breathe",
+                "I feel overwhelmed with fear",
+                "I get shortness of breath and chest pain"
+            ],
+            "responses": [
+                "I'm really sorry you're going through that.<br>Panic attacks can be really tough. Breathing exercises and grounding techniques can help."
+            ]
+        }, {
+            "tag": "panic_attack_false",
+            "patterns": [
+                "I don't have panic attacks",
+                "I don't feel anxious like that",
+                "I have control over my anxiety",
+                "I have not experienced panic attacks"
+            ],
+            "responses": [
+                "That's great!<br>You seem to be fine!"
+            ]
+        }, {
+            "tag": "positive_thinking",
+            "patterns": [
+                "I try to think positively",
+                "I focus on the good in life",
+                "I always look for the bright side",
+                "I maintain a positive mindset"
+            ],
+            "responses": [
+                "That is an amazing approach! Positive thinking can make a big difference."
+            ]
+        }, {
+            "tag": "negative_thinking",
+            "patterns": [
+                "I think negatively",
+                "I struggle to see the positives",
+                "I often feel pessimistic",
+                "I focus on the bad things"
+            ],
+            "responses": [
+                "It's normal to have negative thoughts sometimes, but it's important to challenge them.Are you feel anxious? "
+            ]
+        },
+        {
+            "tag": "anxious_true",
+            "patterns": [
+                "yes i get anxious sometimes",
+                "yes, i do get anxious sometimes",
+                "sometimes i get anxious",
+                "I cant concentrate on one thing",
+                "I suffer from anxiety attacks",
+                "I sometimes feel short of breadth",
+                "Sometimes i feel muscle aches and tension",
+                "sometimes i feel like shaking or trembling",
+                "I sometimes get palpitations",
+                "Yes i sweat excessively sometimes",
+                "yes i feel short of breadth , excess sweat , palpitations , trembling , muscle aches and tension "
+            ],
+            "responses": [
+                "What is making you feel anxious or worried lately?<br>"
+            ]
+        },
+        {
+            "tag": "anxiety_from_work",
+            "patterns": [
+                "I’m constantly anxious about my work",
+                "The pressure at work is making me feel stressed and anxious",
+                "I’m always worried about meeting deadlines",
+                "I can’t stop thinking about work, even after hours",
+                "I feel overwhelmed by the workload and it’s causing me anxiety"
+            ],
+            "responses": [
+                "Work-related anxiety is very common, especially when there’s a lot of pressure.<br> Have you considered talking to your boss about managing your workload or taking small breaks during the day?"
+            ]
+        },{
+            "tag": "anxiety_from_overthinking",
+            "patterns": [
+                "I can't stop overthinking everything",
+                "I keep worrying about all the little details",
+                "My mind is racing with thoughts I can’t control",
+                "I keep thinking about what could go wrong",
+                "I’m stuck in a loop of overthinking everything"
+            ],
+            "responses": [
+                "Overthinking can make anxiety feel so much worse."
+            ]
+        },
+        {
+            "tag": "anxiety_from_health",
+            "patterns": [
+                "I get anxious thinking about my health",
+                "I’m constantly worried something is wrong with me physically",
+                "I have health anxiety and it’s affecting my mood",
+                "I’m always worried about getting sick",
+                "I can't stop worrying about my health and it’s making me anxious"
+            ],
+            "responses": [
+                "Health anxiety can be exhausting.<br> Have you tried focusing on taking small steps to address your health concerns, or speaking with a healthcare professional to calm your worries?"
+            ]
+        },
+        {
+            "tag": "anxiety_from_sleep",
+            "patterns": [
+                "I can’t sleep because I’m anxious",
+                "Anxiety keeps me awake at night",
+                "I feel restless and can’t stop thinking when I try to sleep",
+                "I lie awake worrying, and it’s making my anxiety worse",
+                "I’m exhausted from lack of sleep and it’s making my anxiety worse"
+            ],
+            "responses": [
+                "Sleep issues can worsen anxiety.<br> Have you tried a relaxing bedtime routine or mindfulness exercises to help calm your mind before bed?"
+            ]
+        },
+        {
+        "tag": "anxiety_from_life_changes",
+        "patterns": [
+            "I feel anxious about the big changes in my life",
+            "I’m struggling to adjust to changes and it’s causing me anxiety",
+            "Big life changes are making me feel uncertain and anxious",
+            "I’m anxious about how things are changing around me",
+            "I don’t know how to deal with the changes, and it’s making me anxious"
+        ],
+        "responses": [
+        "Life changes can trigger a lot of anxiety.<br> Have you considered breaking down the change into smaller, manageable parts or seeking support from friends or a professional?"
+    ]
+    },
+    {
+        "tag": "general_anxiety",
+        "patterns": [
+            "I feel anxious all the time",
+            "I'm always worried about something",
+            "I can't relax, I'm too anxious",
+            "My mind is constantly racing",
+            "I feel uneasy without any reason"
+        ],
+        "responses": [
+            "Anxiety can be overwhelming.<br> Have you considered practicing relaxation techniques, like deep breathing or mindfulness, to help calm your mind? Talking to someone you trust can also help ease the anxiety."
+        ]
+    },
+    {
+        "tag": "social_anxiety",
+        "patterns": [
+            "I feel nervous around others",
+            "I get really anxious in social situations",
+            "I’m always worried about how others see me",
+            "Being around people makes me uncomfortable",
+            "I avoid social events because of my anxiety"
+        ],
+        "responses": [
+            "Social anxiety can make everyday situations feel overwhelming.<br> Have you thought about taking small steps to ease into social situations or seeking professional help, like cognitive-behavioral therapy (CBT), to manage your anxiety?"
+        ]
+    },    
+        {
+            "tag": "anxious_false",
+            "patterns": [
+                "no i dont get anxious",
+                "No symptoms of anixety",
+                "i never feel anxious",
+                "very rare moments i feel anxious"
+            ],
+            "responses": [
+                "Great!<br>What is your views about your eating patterns , do you over eat or are you having poor appetite or you are having good appetite???"
+            ]
+        },
+        {
+            "tag": "chronic_fatigue",
+            "patterns": [
+                "I feel tired all the time, no matter how much I sleep",
+                "I don’t have the energy to do anything",
+                "I’m always physically exhausted",
+                "I feel drained even after a good rest",
+                "It’s hard to get through the day because of how tired I am"
+            ],
+            "responses": [
+                "Chronic fatigue can feel overwhelming.<br> Have you been able to check in with your overall health or consider consulting with a healthcare professional to explore the underlying causes of your exhaustion?"
+            ]
+        },
+        {
+            "tag": "isolation",
+            "patterns": [
+                "I feel so alone",
+                "I don't have anyone to talk to",
+                "I’m isolated and disconnected from others",
+                "I feel like I'm living in a bubble, away from everyone",
+                "I don’t feel like I belong anywhere"
+            ],
+            "responses": [
+                "Feeling isolated can be really tough.<br> Have you considered reaching out to someone you trust or participating in an activity that could help you connect with others? Even small steps towards social interaction can make a difference."
+            ]
+        },
+        {
+            "tag": "self_doubt",
+            "patterns": [
+                "I constantly doubt my abilities",
+                "I don’t think I’m good enough",
+                "I’m afraid of failing because I don’t believe in myself",
+                "I’m not sure if I can handle things",
+                "I feel like I’m not capable of succeeding"
+            ],
+            "responses": [
+                "Self-doubt is something many people experience, but it doesn’t define your worth.<br> Have you thought about focusing on your strengths and past successes? Sometimes small achievements can help rebuild confidence."
+            ]
+        },
+        {
+            "tag": "mood_swings",
+            "patterns": [
+                "I feel like my mood changes suddenly",
+                "One moment I’m fine, the next I’m upset",
+                "I can't control how my emotions shift",
+                "My mood goes from happy to sad without warning",
+                "I feel like I’m on an emotional rollercoaster"
+            ],
+            "responses": [
+                "Mood swings can be unsettling, but they are sometimes tied to stress or other factors.<br> Have you noticed any specific triggers, or would you consider seeking support from a professional to explore what might be causing these shifts?"
+            ]
+        },
+        {
+            "tag": "imposter_syndrome",
+            "patterns": [
+                "I feel like I don’t belong where I am",
+                "I’m afraid people will find out I’m not as good as they think",
+                "I don’t feel like I deserve my success",
+                "I constantly feel like I’m faking it",
+                "I worry that I’m not good enough for the position I have"
+            ],
+            "responses": [
+                "Imposter syndrome can be tough to navigate, but it’s important to recognize your accomplishments.<br> Have you considered reflecting on your achievements and remembering that everyone faces doubts? You deserve your success."
+            ]
+        },
+        {
+            "tag": "fear_of_the_future",
+            "patterns": [
+                "I’m afraid of what’s coming next",
+                "The uncertainty of the future scares me",
+                "I don’t know what’s ahead, and it makes me anxious",
+                "I’m always worried about what will happen next",
+                "The unknown future makes me feel uneasy"
+            ],
+            "responses": [
+                "It’s natural to feel uncertain about the future.<br> Have you considered focusing on what you can control today, instead of worrying too much about tomorrow? Sometimes breaking things down into smaller steps can help ease the anxiety."
+            ]
+        },
+        {
+            "tag": "overthinking",
+            "patterns": [
+                "I can’t stop thinking about everything",
+                "I keep going over things in my mind again and again",
+                "I overanalyze everything I do",
+                "I can’t stop worrying about the small details",
+                "I always think too much about what others think"
+            ],
+            "responses": [
+                "Overthinking can be exhausting.<br> Have you tried redirecting your focus with mindfulness or engaging in an activity that takes your mind off the cycle of thoughts?"
+            ]
+        },
+        {
+            "tag": "addiction",
+            "patterns": [
+                "I can’t stop using substances",
+                "I’m addicted to drinking or drugs",
+                "I’ve tried quitting, but I can’t",
+                "I feel like I’m losing control over my habits",
+                "I’m ashamed of my addiction"
+            ],
+            "responses": [
+                "Addiction is a serious challenge, but help is available.Which type of addiction you have?"
+            ]
+        }, 
+        {
+            "tag": "behavioral_addiction",
+            "patterns": [
+                "I can't stop checking my phone",
+                "I spend excessive time on social media",
+                "I often gamble even when I can't afford to",
+                "I feel the urge to shop uncontrollably",
+                "I can't resist the urge to eat even when I'm not hungry",
+                "I frequently engage in risky sexual behaviors",
+                "I find it hard to stop playing video games",
+                "I often find myself watching pornography despite wanting to stop"
+            ],
+            "responses": [
+                "Behavioral addictions can be just as challenging as substance addictions.<br> Have you considered seeking support from a mental health professional or joining a support group to help manage these behaviors?"
+            ]
+        },
+        {
+            "tag": "exercise_addiction",
+            "patterns": [
+                "I feel compelled to exercise excessively",
+                "I can't skip my daily workout, even when I'm injured",
+                "I often prioritize exercise over other important activities",
+                "I experience anxiety or guilt when I miss a workout",
+                "I continue to exercise despite physical pain or fatigue"
+            ],
+            "responses": [
+                "Exercise is important for health, but excessive exercise can be harmful.<br> Have you considered balancing your workout routine with rest and consulting a fitness professional to ensure a healthy approach?"
+            ]
+        },
+        {
+            "tag": "food_addiction",
+            "patterns": [
+                "I often eat even when I'm not hungry",
+                "I crave certain foods and can't resist eating them",
+                "I feel powerless to control my eating habits",
+                "I eat to cope with stress or emotions",
+                "I have tried to diet but always return to unhealthy eating patterns"
+            ],
+            "responses": [
+                "Food addiction can impact both physical and emotional well-being.<br> Have you thought about speaking with a nutritionist or therapist to develop a healthier relationship with food?"
+            ]
+        },
+        {
+            "tag": "gambling_addiction",
+            "patterns": [
+                "I often think about gambling and find it hard to stop",
+                "I gamble more money than I can afford to lose",
+                "I have lied about my gambling habits to others",
+                "I feel anxious or restless when I'm not gambling",
+                "I have lost relationships or jobs due to my gambling"
+            ],
+            "responses": [
+                "Gambling can be enticing, but it can also lead to serious consequences.<br> Have you considered seeking help from a gambling support group or counselor?"
+            ]
+        },
+        {
+            "tag": "porn_addiction",
+            "patterns": [
+                "I frequently watch pornography, even when I don't desire to",
+                "I spend a significant amount of time viewing explicit content",
+                "I feel distressed about my consumption of pornography",
+                "I have attempted to quit watching porn but have been unsuccessful",
+                "My relationships are affected by my pornography use"
+            ],
+            "responses": [
+                "Pornography consumption can impact personal relationships and self-esteem.<br> Have you considered discussing this with a mental health professional to address your concerns?"
+            ]
+        },
+        {
+            "tag": "shopping_addiction",
+            "patterns": [
+                "I often buy things I don't need",
+                "I feel a rush of excitement when making purchases",
+                "I hide my shopping habits from friends or family",
+                "I experience regret or guilt after shopping",
+                "I spend more money than I can afford on shopping"
+            ],
+            "responses": [
+                "Shopping can be enjoyable, but excessive spending can lead to financial and emotional stress.<br> Have you considered creating a budget or consulting a financial advisor to manage your spending habits?"
+            ]
+        },
+        {
+            "tag": "work_addiction",
+            "patterns": [
+                "I find it hard to take breaks from work",
+                "I often work long hours, neglecting personal time",
+                "I feel anxious about taking time off from work",
+                "I prioritize work over relationships and hobbies",
+                "I have received feedback about my excessive work habits"
+            ],
+            "responses": [
+                "Dedication to work is valuable, but overworking can affect health and relationships.<br> Have you thought about setting clear boundaries between work and personal life or discussing your workload with a supervisor?"
+            ]
+        }, 
+        {
+            "tag": "technology_addiction",
+            "patterns": [
+                "I spend too much time on my devices",
+                "I can't go a day without checking my phone",
+                "I'm addicted to social media",
+                "I feel anxious when I'm not online",
+                "My screen time is affecting my daily life"
+            ],
+            "responses": [
+                "It's easy to become absorbed in technology. Setting boundaries, like limiting screen time before bed or designating tech-free zones, can help. Have you tried scheduling specific times to check devices or engaging in offline activities to balance your routine?"
+            ]
+        },
+        {
+            "tag": "workaholism",
+            "patterns": [
+                "I can't stop thinking about work",
+                "I often work late into the night",
+                "I feel guilty taking time off from work",
+                "My work defines my self-worth",
+                "I neglect personal relationships because of my job"
+            ],
+            "responses": [
+                "It's important to find a balance between work and personal life. Have you considered setting clear boundaries for work hours and dedicating time to hobbies and relationships? Seeking support from a mentor or counselor can also help address workaholism and promote a healthier work-life balance."
+            ]
+        },
+        {
+            "tag": "social_media_emotion",
+            "patterns": [
+                "I see so many tearful videos online and wonder about their impact",
+                "Sharing my emotional moments on social media feels validating",
+                "I feel connected when others share their crying moments online"
+            ],
+            "responses": [
+                "Sharing emotions online can foster connection, but it's essential to consider privacy and the authenticity of such expressions."
+            ]
+        },
+        {
+            "tag": "emotional_overwhelm",
+            "patterns": [
+                "I feel like my emotions are too much to handle",
+                "Everything feels overwhelming and I just want to cry",
+                "I can't control my emotions anymore"
+            ],
+            "responses": [
+                "Experiencing intense emotions can be challenging. Have you considered talking to a mental health professional to help manage these feelings?"
+            ]
+        },
+        {
+            "tag": "cathartic_release",
+            "patterns": [
+                "Crying helps me release built-up emotions",
+                "I feel better after a good cry",
+                "Letting out my tears brings me relief"
+            ],
+            "responses": [
+                "Crying can be a healthy way to process emotions. It's important to allow yourself to feel and express them."
+            ]
+        },                                                                                                                                                              
+        {
+            "tag": "appetite_okay",
+            "patterns": [
+                "I am not having any issues with appetite",
+                "Having proper food",
+                "Not overeating or less appetite",
+                "I am having a proper appetite"
+            ],
+            "responses": [
+                "Thats great<br>Do you feel mentally tired??"
+            ]
+        },
+        {
+            "tag": "appetite_over",
+            "patterns": [
+                "i overeat a lot",
+                "I am doing overeating",
+                "Having very unhealthy food in large quatity",
+                "eating excessilvely",
+                "eating unecessarily"
+            ],
+            "responses": [
+                "Please visit a dietician<br>Do you feel mentally tired??"
+            ]
+        },
+        {
+            "tag": "appetite_less",
+            "patterns": [
+                "i am eating less",
+                "poor appetite",
+                "i'm not able to eat proprly at all",
+                "i have poor appetite",
+                "I am having less food than required",
+                "Not able to eat food",
+                "I am having less appetite"
+            ],
+            "responses": [
+                "Please visit a dietician<br>Do you feel mentally tired??"
+            ]
+        },
+        {
+            "tag": "mentally_tired_true",
+            "patterns": [
+                "Yes i am mentally exhausted",
+                "Yes i am mentally tired",
+                "Yes, i feel exhausted all the time",
+                "I am mentally tired",
+                "Yes, i feel exhausted sometimes"
+            ],
+            "responses": [
+                "Try getting proper sleep<br>Do you cry frequently?"
+            ]
+        },
+        {
+            "tag": "mentally_tired_from_daily_routine",
+            "patterns": [
+                "My daily routine is draining me",
+                "I feel mentally exhausted from the same routine every day",
+                "Every day feels the same, and it's mentally tiring",
+                "I’m mentally tired from doing the same things every day",
+                "My routine is wearing me out mentally"
+            ],
+            "responses": [
+                "The monotony of daily routines can feel mentally exhausting.<br> Have you tried changing up your schedule or adding something new to break the cycle?"
+            ]
+        },
+        
+        {
+            "tag": "mentally_tired_false",
+            "patterns": [
+                "i am mentally fit",
+                "No i am mentally fit",
+                "No i am not mentally exhausted",
+                "No i am not mentally tired"
+            ],
+            "responses": [
+                "I hope it remains forever<br>Do you cry frequently?"
+            ]
+        },
+        {
+            "tag": "crying_true",
+            "patterns": [
+                "always crying",
+                "Yes i feel crying most of the time",
+                "yes i cry frequently"
+            ],
+            "responses": [
+                "Sad to hear<br>Do you like being alone?"
+            ]
+        },
+        {
+            "tag": "crying_false",
+            "patterns": [
+                "yes i cry sometimes",
+                "no i never cry",
+                "no i dont cry",
+                "i cry very rarely"
+            ],
+            "responses": [
+                "Its okay to cry sometimes !<br>Do you like being alone?"
+            ]
+        },
+        {
+            "tag": "loneliness_true",
+            "patterns": [
+                "introvert",
+                "yes i am an introvert",
+                "yes i am not comfortable with people around me",
+                "i dont enjoy company of others",
+                "i cant get away with others",
+                "I love being alone",
+                "I dont like others after me"
+            ],
+            "responses": [
+                "Its your choice but having good people around helps a lot in social life<br>Do you feel being hopeless frequently?"
+            ]
+        },
+        {
+            "tag": "loneliness_false",
+            "patterns": [
+                "i am a extrovert",
+                "i am comfortable with people around me",
+                "i enjoy company of others",
+                "i get away with others easily",
+                "I love being with others",
+                "I like roaming in groups"
+            ],
+            "responses": [
+                "Thats actually a good thing<br>Do you feel being hopeless frequently?"
+            ]
+        },
+        {
+            "tag": "hopeless_true",
+            "patterns": [
+                "Yes i am always hopeless",
+                "Yes i am fed up and always give up very early",
+                "yes i give up at very initial stage"
+            ],
+            "responses": [
+                "Have you ever tried to harm yourself or have you tried to do suicide ?"
+            ]
+        },
+        {
+            "tag": "hopeless_false",
+            "patterns": [
+                "not hopeless",
+                "i never feel hopeless",
+                "No i am always hopefull",
+                "I am having a positive approach towards life",
+                "I am very positive",
+                "I never give up easily"
+            ]
+        },
+        {
+            "tag": "harm_true",
+            "patterns": [
+                "I tried to cut my vein with a knife",
+                "I tried to jump from a building",
+                "I tied my self to a ceiling fan",
+                "i tried consuming poision",
+                "i tried to jump in front of train"
+            ],
+           "responses": [
+  "Please visit this website <a href='https://suicidepreventionlifeline.org/' target='_blank'>suicidepreventionlifeline.org</a><br><br>Or call this number: 9876543210"
+]
+        },
+        {
+            "tag": "harm_false",
+            "patterns": [
+                "no i never tried doind harm to myself",
+                "no i never harmed myself intentionally",
+                "Never tried suicide",
+                "Not tried to suicide"
+
+            ]
+        },
+        {
+            "tag": "good bye",
+            "patterns": [
+                "See you later",
+                "Nice talking you, bye",
+                "It was nice talking you",
+                "Good bye",
+                "Later",
+                "bye",
+                "By",
+                "I will talk to you later"
+            ],
+            "responses": [
+                "Thank you, <br>Good Bye,<br> One last question!! Have you ever tried to harm yourself or have you tried to do suicide ?"
+            ]
+        }
+    ]
+}
